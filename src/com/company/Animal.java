@@ -10,5 +10,7 @@ public abstract class Animal {
 
   public abstract void makeSound();
 
+  public abstract void showMood(boolean isHappy);
+
   public abstract boolean eat(String foodType);
 }
