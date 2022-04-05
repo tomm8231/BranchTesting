@@ -17,8 +17,4 @@ public class Cat extends Animal {
     return true;
   }
 
-
-  public String getName() {
-    return name;
-  }
 }
