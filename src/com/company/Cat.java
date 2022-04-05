@@ -3,6 +3,9 @@ package com.company;
 public class Cat extends Animal {
 
 
+  public Cat(String name) {
+    super(name);
+  }
 
   @Override
   public void makeSound() {
@@ -14,4 +17,8 @@ public class Cat extends Animal {
     return true;
   }
 
+
+  public String getName() {
+    return name;
+  }
 }
