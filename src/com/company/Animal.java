@@ -2,9 +2,7 @@ package com.company;
 
 public abstract class Animal {
 
-  public Animal() {
-    String name;
-  }
+  private String Name;
 
   public abstract void makeSound();
 }
